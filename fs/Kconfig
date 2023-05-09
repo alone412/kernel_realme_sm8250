@@ -319,4 +319,9 @@ source "fs/nls/Kconfig"
 source "fs/dlm/Kconfig"
 source "fs/unicode/Kconfig"
 
+#ifdef OPLUS_FEATURE_EXFAT_SUPPORT
+source "fs/exfat/Kconfig"
+#endif /*OPLUS_FEATURE_EXFAT_SUPPORT*/
+source "fs/unicode/Kconfig"
+
 endmenu
